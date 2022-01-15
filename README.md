@@ -1,15 +1,23 @@
 # Actions and WorkFlow (continuous integration)
-This repository tests Github Workflow that is continuous integration (CI) with a .NET 5 console application with a related Test project
+This repository will create Continuous Integration (CI) builds using Github actions and workflow.
 
 ## Procedure
-Inside Github go to Action and: 
+Follow below steps:
+<br>
 ```
-Create New Workflow > Choose .NET Template
-```
-At your local PC do following: 
-```
-- Clone this repo to local PC
-- Inside VScode create .net 5.0 project: `dotnet new console --framework net5.0`
-- Commit and push changes. 
-- The workflow will be triggered on the Push event. 
+- create github repo
+- using cmd clone the repo to your local pc
+- 
+- using visual studio create below .net project at a different folder than where your github project has been cloned. 
+ create the .net project using: file new > asp.net core web api (.net 5)
+ do not place sln file with project. After creating the project the structure of the project folder should contain 3 files: .vs, webapplicaion1 and sln file. 
+- copy the generated code .net web api project code into the folder of the newly cloned repository
+<br>
+- above procedure may seem ackward, however it helps prevent issues that would have gone wrong if we had made the asp.net core web api project inside the cloned directory
+<br>
+- open the folder with both the .net code and github cloned repo using visual studio code
+- at .vs to gitignore file 
+ 
+- dsfdafadsfafdads
+
 ```
