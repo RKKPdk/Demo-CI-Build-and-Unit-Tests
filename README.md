@@ -2,8 +2,8 @@
 ```
 This repository will create Continuous Integration (CI) builds, 
 furthermore it wil include Unit Tests. 
-Above will be done using Github Actions and Workflow. 
-Note: All code will be written inside a YML file
+Everything is done using Github Actions and Workflow and all code is written in YML file
+Ekstra feature: Issue tracking and fixing
 ```
 
 ## Unit Test status
