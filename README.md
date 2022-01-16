@@ -1,7 +1,9 @@
-# Actions and WorkFlow (continuous integration) with Unit Test
-This repository will create Continuous Integration (CI) builds using Github actions and workflow and run Unit Test. 
-<br>
-Everything will be done using yml file. 
+# Building CI (continuous integration) with Unit Test using Github Actions and WorkFlow
+```
+This repository will create Continuous Integration (CI) builds including Unit Tests using Github Actions and Workflow. 
+
+All code will be written inside a YML file
+```
 
 ## Procedure
 > Follow the instructions at: 
