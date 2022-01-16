@@ -1,6 +1,10 @@
-# https://raw.githubusercontent.com/rstropek/htl-leo-live-ci-cd/master/.github/workflows/ci-cd.yaml
+
+
+# C# ASP.NET 5 - CI/CD With GitHub Actions - Part 1, C# ASP.NET 5 - CI/CD With GitHub Actions - Part 2
 # https://www.youtube.com/watch?v=R5ppadIsGbA
-# C# ASP.NET 5 - CI/CD With GitHub Actions - Part 1
+# https://www.youtube.com/watch?v=ySVsLE0XWQA
+# https://raw.githubusercontent.com/rstropek/htl-leo-live-ci-cd/master/.github/workflows/ci-cd.yaml
+
 name: Continuous Integration CI-Build
 
 on:
