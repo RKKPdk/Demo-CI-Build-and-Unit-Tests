@@ -1,0 +1,30 @@
+# https://raw.githubusercontent.com/rstropek/htl-leo-live-ci-cd/master/.github/workflows/ci-cd.yaml
+# https://www.youtube.com/watch?v=R5ppadIsGbA
+# C# ASP.NET 5 - CI/CD With GitHub Actions - Part 1
+name: Continuous Integration CI-Build
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  DOTNET_VERSION: '5.0.x'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code 🛎
+        uses: actions/checkout@v2
+      
+      - name: Setup .NET 5 🔧
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Restore dependencies 🛠
+        run: dotnet restore
+      
+      - name: Build app 🚀
+        run: dotnet build -c Release --no-restore
